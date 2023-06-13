@@ -28,6 +28,8 @@ img {
   }
 .header{
     border-bottom: 1px solid #E7E9FC;
+    padding-bottom: 24px;
+    padding-top: 24px;
 }
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -88,10 +90,11 @@ color: var(--primaryBrand);
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--white);
-    margin-bottom: 48px;
+    max-width: 496px;
+    margin: 0 auto 48px;
 }
 .btn-tittle{
-    background: var(--primaryBrand);
+    background-color: var(--primaryBrand);
     color:var(--white);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -104,7 +107,9 @@ color: var(--primaryBrand);
     padding: 16px 32px;
     display: block;
     margin: 0 auto;
-    
+    min-width: 169px;
+    height: 56px;
+    border-radius: 4px;  
 }
 .btn-tittle:hover,
 .btn-tittle:focus{
@@ -157,16 +162,18 @@ color: var(--primaryBrand);
 .container{
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
 }
 .header-container{
     display: flex;
     justify-content: space-between;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 .nav {
     display: flex; 
+    align-items: center;
+}
+.header-logo{
+    margin-right: 76px;
 }
 .nav-list{
     display: flex;
@@ -224,13 +231,15 @@ color: var(--primaryBrand);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 border-radius: 0px 0px 4px 4px;
 }
+.team-subtitle-wrap{
+    padding: 32px 16px;
+}
 .team-subtitle{
     text-align: center;
-    padding: 32px 0 8px 0;
+    margin-bottom: 8px;
 }
 .team-subtitle-text{
     text-align: center;
-    padding-bottom: 32px;
 }
 .footer{
     padding: 100px 0;
@@ -270,6 +279,7 @@ border-radius: 0px 0px 4px 4px;
     background: var(--pressedState);
     border:none;
     color:var(--white);
+    border: 1px solid transparent;
 }
 .portfolio-list {
     display: flex;
@@ -287,5 +297,5 @@ border-radius: 0px 0px 4px 4px;
     border-bottom: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
-    padding: 32px 0 32px 16px;
+    padding: 32px 16px;
 }

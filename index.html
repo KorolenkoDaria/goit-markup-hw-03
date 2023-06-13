@@ -20,11 +20,11 @@
     <header class="header">
         <div class="container header-container">
             <nav class="nav">
-                <a class="link logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
+                <a class="link logo header-logo" href="./index.html">Web<span class="logo-accent">Studio</span></a>
                 <ul class="list nav-list">
-                    <li><a class="list-item-link link" href="./index.html">Studio</a></li>
-                    <li><a class="list-item-link link" href="./portfolio.html">Portfolio</a></li>
-                    <li><a class="list-item-link link" href="">Contacts</a></li>
+                    <li class="nav-list-item"><a class="list-item-link link" href="./index.html">Studio</a></li>
+                    <li class="nav-list-item"><a class="list-item-link link" href="./portfolio.html">Portfolio</a></li>
+                    <li class="nav-list-item"><a class="list-item-link link" href="">Contacts</a></li>
                 </ul>
             </nav>
             <address class="contacts">
@@ -42,9 +42,11 @@
 
     <main class="">
         <section class="hero">
-            <h1 class="hero-tittle">Effective Solutions <br>
-                for Your Business</h1>
-            <button class="btn-tittle" type="button">Order Service</button>
+            <div class="container">
+                <h1 class="hero-tittle">Effective Solutions <br>
+                    for Your Business</h1>
+                <button class="btn-tittle" type="button">Order Service</button>
+            </div>
         </section>
         <!-- Advantages -->
         <section class="advantages">
@@ -105,23 +107,31 @@
                 <ul class="list team-list">
                     <li class="team-list-item">
                         <img src="./images/our_team_01.jpg" alt="Mark Guerrero" width="264" height="260">
-                        <h3 class="subtitle team-subtitle">Mark Guerrero</h3>
-                        <p class="subtitle-text team-subtitle-text">Product Designer</p>
+                        <div class="team-subtitle-wrap">
+                            <h3 class="subtitle team-subtitle">Mark Guerrero</h3>
+                            <p class="subtitle-text team-subtitle-text">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img src="./images/our_team_02.jpg" alt="Tom Ford" width="264" height="260">
-                        <h3 class="subtitle team-subtitle">Tom Ford</h3>
-                        <p class="subtitle-text team-subtitle-text">Frontend Developer</p>
+                        <div class="team-subtitle-wrap">
+                            <h3 class="subtitle team-subtitle">Tom Ford</h3>
+                            <p class="subtitle-text team-subtitle-text">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img src="./images/our_team_03.jpg" alt="Camila Garcia" width="264" height="260">
-                        <h3 class="subtitle team-subtitle">Camila Garcia</h3>
-                        <p class="subtitle-text team-subtitle-text">Marketing</p>
+                        <div class="team-subtitle-wrap">
+                            <h3 class="subtitle team-subtitle">Camila Garcia</h3>
+                            <p class="subtitle-text team-subtitle-text">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-list-item">
                         <img src="./images/our_team_04.jpg" alt="Daniel Wilson" width="264" height="260">
-                        <h3 class="subtitle team-subtitle">Daniel Wilson</h3>
-                        <p class="subtitle-text team-subtitle-text">UI Designer</p>
+                        <div class="team-subtitle-wrap">
+                            <h3 class="subtitle team-subtitle">Daniel Wilson</h3>
+                            <p class="subtitle-text team-subtitle-text">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
