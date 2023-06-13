@@ -28,8 +28,6 @@ img {
   }
 .header{
     border-bottom: 1px solid #E7E9FC;
-    padding-bottom: 24px;
-    padding-top: 24px;
 }
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -180,9 +178,16 @@ color: var(--primaryBrand);
     gap: 40px; 
     margin-left: 76px; 
 }
+.nav-list-item{
+    padding: 24px 0;
+}
 .contacts-list{
     display: flex;
-    gap: 40px;
+    align-items: center;
+    gap: 40px;   
+}
+.contacts-list-item {
+    padding: 24px 0;
 }
 .advantages{
     padding: 120px 0;
@@ -194,9 +199,6 @@ color: var(--primaryBrand);
 }
 .advantages-list-item{
     width: calc((100% - 72px) / 4);
-}
-.advantages-tittle{
-    display: none;
 }
 .advantages-subtitle{
     margin-bottom: 8px;
@@ -245,14 +247,11 @@ border-radius: 0px 0px 4px 4px;
     padding: 100px 0;
 }
 .footer-link{
-    display: block;
-    margin-bottom: 17px;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .portfolio {
     padding: 96px 0 120px 0;
-}
-.filter-tittle {
-    display: none;
 }
 .filter-list {
     display: flex;
@@ -298,4 +297,16 @@ border-radius: 0px 0px 4px 4px;
     border-right: 1px solid #E7E9FC;
     border-left: 1px solid #E7E9FC;
     padding: 32px 16px;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
