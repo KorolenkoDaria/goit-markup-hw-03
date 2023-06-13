@@ -28,6 +28,7 @@ img {
   }
 .header{
     border-bottom: 1px solid #E7E9FC;
+    padding: 24px 0;
 }
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -55,6 +56,7 @@ color: var(--primaryBrand);
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--mainColor);
+    padding: 24px 0;
 }
 .list-item-link:hover,
 .list-item-link:focus{
@@ -71,6 +73,7 @@ color: var(--primaryBrand);
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--textColor);
+    padding: 24px 0;
 }
 .address-link:hover,
 .address-link:focus {
@@ -176,18 +179,11 @@ color: var(--primaryBrand);
 .nav-list{
     display: flex;
     gap: 40px; 
-    margin-left: 76px; 
-}
-.nav-list-item{
-    padding: 24px 0;
 }
 .contacts-list{
     display: flex;
     align-items: center;
     gap: 40px;   
-}
-.contacts-list-item {
-    padding: 24px 0;
 }
 .advantages{
     padding: 120px 0;
